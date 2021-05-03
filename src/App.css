@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+    font-family: "alegreya-sans-sc.thin";
+    src: url("/src/fonts/alegreya-sans-sc.thin.ttf");
+}
+
+@font-face {
+    font-family: "Carrinady";
+    src: url("/src/fonts/carrinady.carrinady.ttf");
+}
+
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: #333;
+	background: #F9F9F9;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    background-color: #132742;
+    height: 100%;
+    padding: 6rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.inset {
+    height: 100%;
+    width:100%;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0.5rem solid #132742;
+    outline: 0.3rem solid #C0C0C0;
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    max-width: moz fit-content;
+}
+.information {
+    background-color: #F5F5F5;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 7rem auto 7rem;
+    font-family: "alegreya-sans-sc.thin";
+    font-size: 7rem;
+    line-height: 9rem;
+    text-align: center;
+    padding: 1rem;
+    height:9rem;
+}
+
+
+article p {
+    font-family: "alegreya-sans-sc.thin";
+    font-size: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.silver {
+
+    color: #C0C0C0;
+}
+
+.date p {
+    font-family: "alegreya-sans-sc.thin";
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:0.5rem 0;
+}
+
+.date {
+    width:33%;
+}
+
+.inlay {
+    background-image: url("img/leaves.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.leaves-frame {
+    position: relative;
+}
+
+.post-script p {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .wrapper {
+        padding: 4rem;
+    }
+    
+    h1 {
+        margin: 4rem auto;
+        font-size: 4rem;
+        line-height: 4rem;
+        padding-top: 7rem;
+    }
+
+    article p {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .date p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+
+    .post-script p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin: 3rem auto;
+    }
+
+    article p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .date p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .post-script p{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .wrapper {
+        padding: 0.5rem;
+    }
+
+    .inset {
+        border: 0.25rem solid #132742;
+        outline: 0.15rem solid #C0C0C0;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        margin: 3rem auto;
+    }
+
+    article p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .date p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .post-script p{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+    }
+}
