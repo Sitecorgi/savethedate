@@ -80,7 +80,6 @@ h1 {
     line-height: 9rem;
     text-align: center;
     padding: 1rem;
-    height:9rem;
 }
 
 article p {
@@ -149,6 +148,7 @@ article p {
 
     .wrapper {
         padding: 1rem;
+        height: 100vh;
     }
 
     h1 {
@@ -181,6 +181,7 @@ article p {
     
     .wrapper {
         padding: 4rem;
+        height: 100%;
     }
     
     h1 {
@@ -209,10 +210,10 @@ article p {
 @media only screen and (max-width: 541px) {
     .wrapper {
         padding: 1rem;
+        height: 100%;
     }
 
     .inset {
-
         border: 0.25rem solid #132742;
         outline: 0.15rem solid #C0C0C0;
     }
@@ -239,14 +240,39 @@ article p {
 }
 
 @media only screen and (max-width: 415px) {
+    
+    .wrapper {
+        padding: 0.5rem;
+        height: 100%;
+    }
+    
     h1 {
+        font-size: 3rem;
+        line-height: 9rem;
         margin: 0;
+        padding: 4rem 0;
+    }
+
+    article p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .date p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .post-script p{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
     }
 }
 
 @media only screen and (max-width: 361px) {
     .wrapper {
         padding: 0.5rem;
+        height: 100%;
     }
 
     .inset {
@@ -276,10 +302,11 @@ article p {
     }
 }
 
-
-
 @media only screen and (max-width: 321px) {
-    
+    .wrapper {
+        height:100%;
+    }
+
     h1 {
         line-height: 3rem;
         padding: 6rem 0;
@@ -307,7 +334,10 @@ article p {
 }
 
 @media only screen and (max-width: 281px) {
-    
+    .wrapper {
+        height:100%;
+    }
+
     h1 {
         font-size: 2.5rem;
     }
