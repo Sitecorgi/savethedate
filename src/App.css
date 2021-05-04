@@ -343,6 +343,7 @@ article p {
     }
 }
 
+
 @media only screen and (max-height: 540px) and (min-width: 500px) {
     .wrapper {
         padding: 0.25rem;
@@ -406,3 +407,9 @@ article p {
         line-height: 1rem;
     }
 }
+
+@media screen and (orientation:landscape) {
+    .wrapper {
+        height:100%;
+    }
+ }
