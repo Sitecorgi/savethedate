@@ -16,7 +16,7 @@ function App() {
             <p>James Darrall</p>
             <p>are getting married</p>
           </div>
-          <div className="dates">
+          <aside className="dates">
             <div className="date">
               <p>Sunday 1st May, 2022</p>
               <p>
@@ -29,7 +29,7 @@ function App() {
                 Jordan Village, ON, Canada
               </p>
             </div>
-          </div>
+          </aside>
           <div className="post-script">
             <p>
               <i>Formal invitation and details to follow </i>
