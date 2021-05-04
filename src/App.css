@@ -136,7 +136,7 @@ article p {
 .inlay {
     background-image: url("img/leaves.png");
     background-repeat: no-repeat;
-    background-position-y: bottom;
+    background-position-y: center;
     background-position-x: center;
 }
 
@@ -144,9 +144,56 @@ article p {
     position: relative;
 }
 
+.post-script {
+    padding-bottom: 0.5rem;
+}
+
 .post-script p {
     font-size: 2rem;
     line-height: 2rem;
+}
+
+@media only screen and (max-height:1025px){
+
+    .wrapper {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-height:901px) {
+    
+    .inset {
+        max-width: 30rem;
+    }
+
+    .wrapper {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+        margin: 5rem auto;
+        padding: 0;
+    }
+
+    article p {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .date {
+        width:50%;
+    }
+    
+    .date p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .post-script p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -159,7 +206,7 @@ article p {
         margin: 4rem auto;
         font-size: 4rem;
         line-height: 4rem;
-        padding-top: 7rem;
+        padding: 7rem 0 1rem 0;
     }
 
     article p {
@@ -171,7 +218,6 @@ article p {
         font-size: 2rem;
         line-height: 2rem;
     }
-    
 
     .post-script p {
         font-size: 1.5rem;
@@ -179,14 +225,14 @@ article p {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 541px) {
     .wrapper {
         padding: 2rem;
     }
 
     h1 {
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 4rem;
         margin: 3rem auto;
     }
 
@@ -218,7 +264,7 @@ article p {
 
     h1 {
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 4rem;
         margin: 3rem auto;
     }
 
@@ -235,5 +281,86 @@ article p {
     .post-script p{
         font-size: 0.75rem;
         line-height: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    
+    h1 {
+        line-height: 1.5rem;
+    }
+
+    .inlay {
+        max-height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-height: 540px){
+    .wrapper {
+        padding: 0.25rem;
+    }
+   
+    .inlay {
+        background: none;
+    }
+
+    .inset {
+        position: relative;
+        border: 0.2rem solid #132742;
+        outline: 0.1rem solid #C0C0C0;
+        max-width: inherit;
+
+    }
+
+    .information {
+        background: #F5F5F5 url("img/rosemaries-smaller-wide.png") no-repeat center;
+    }
+
+    h1 {
+        padding: 1rem;
+        margin: 0;
+        line-height: 1;
+        height:initial;
+    }
+
+    article p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .date p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }   
+
+    .post-script p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+
+
+@media only screen and (max-height: 280px){
+   
+    article p {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .date p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }   
+
+    .post-script p{
+        font-size: 1rem;
+        line-height: 1rem;
     }
 }
