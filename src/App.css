@@ -22,11 +22,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     src: url("/src/fonts/alegreya-sans-sc.thin.ttf");
 }
 
-@font-face {
-    font-family: "Carrinady";
-    src: url("/src/fonts/carrinady.carrinady.ttf");
-}
-
 
 /* remember to define focus styles! */
 :focus {
@@ -40,27 +35,12 @@ body {
 ol, ul {
 	list-style: none;
 }
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-}
-caption, th, td {
-	text-align: left;
-	font-weight: normal;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: "";
-}
-blockquote, q {
-    quotes: "" "";
-}
 
 html, body, #root {
     width: 100%;
     height: 100%;
 }
+
 .wrapper {
     background-color: #132742;
     height: 100%;
@@ -70,6 +50,7 @@ html, body, #root {
     flex-direction: row;
     justify-content: center;
 }
+
 .inset {
     height: 100%;
     width:100%;
@@ -100,7 +81,6 @@ h1 {
     padding: 1rem;
     height:9rem;
 }
-
 
 article p {
     font-family: "alegreya-sans-sc.thin";
@@ -345,7 +325,6 @@ article p {
         line-height: 1rem;
     }
 }
-
 
 @media only screen and (max-height: 280px){
    
