@@ -209,13 +209,13 @@ article p {
 
 @media only screen and (max-width: 541px) {
     .wrapper {
-        padding: 1rem;
+        padding: 2rem;
         height: 100%;
     }
 
     .inset {
-        border: 0.25rem solid #132742;
-        outline: 0.15rem solid #C0C0C0;
+        border: 0.5rem solid #132742;
+        outline: 0.25rem solid #C0C0C0;
     }
 
     h1 {
@@ -242,7 +242,7 @@ article p {
 @media only screen and (max-width: 415px) {
     
     .wrapper {
-        padding: 0.5rem;
+        padding: 1rem;
         height: 100%;
     }
     
@@ -271,13 +271,13 @@ article p {
 
 @media only screen and (max-width: 361px) {
     .wrapper {
-        padding: 0.5rem;
+        padding: 0.75rem;
         height: 100%;
     }
 
     .inset {
-        border: 0.25rem solid #132742;
-        outline: 0.15rem solid #C0C0C0;
+        border: 0.5rem solid #132742;
+        outline: 0.25rem solid #C0C0C0;
     }
 
     h1 {
