@@ -26,7 +26,7 @@ function App() {
             <div className="date">
               <p>Saturday 7th May, 2022</p>
               <p>
-                Jordan Village, ON, Canada
+                Lincoln, ON, Canada
               </p>
             </div>
           </aside>
